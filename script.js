@@ -45,4 +45,8 @@ while (nilaiAwal <= 10) {
 } */
 
 var nama = prompt("Masukkan Nama Anda :");
-alert("Halo " + nama + " Apakah Kamu Siswa 12 Mipa 7");
+var tes = confirm("Halo " + nama + " Apakah Kamu Siswa 12 Mipa 7 ?");
+
+if (tes === false) {
+  window.close();
+}
